@@ -1,31 +1,44 @@
-h1 {
-text-align: center;
-}
-
-#top {
-    background-color: darkgreen;
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    margin: 15px;
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: beige;
     padding: 20px;
 }
 
-#middle{
+img.octocat {
+    height: 200px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.toprow {
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.middlerow {
     background-color: gold;
     display: flex;
-    height: 200px;
-    margin: 15px;
+    margin: 20px;
     padding: 20px;
     justify-content: space-around;
 }
 
-#bottom{
+.bottomrow {
     background-color: darkgray;
     display: flex;
-    height: 200px;
-    margin: 10px;
+    margin: 20px;
     padding: 20px;
     justify-content: space-evenly;
 }
 
+p {
+    text-align: center;
+}
